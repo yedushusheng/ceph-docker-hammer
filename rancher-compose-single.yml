@@ -58,3 +58,5 @@ ceph01-daemon-rgw:
   command: rgw
   links:
     - ceph01-daemon-mds
+
+# 注意：应该在执行yml文件的时候，在rancher中修改添加主机的hostname，这样label标签才会起作用
